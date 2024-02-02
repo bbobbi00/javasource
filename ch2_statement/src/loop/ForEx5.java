@@ -15,34 +15,31 @@ public class ForEx5 {
     System.out.println();
 
     for (int j = 1; j <= 2; j++) {
-        System.out.print("*");
-  } System.out.println();
-
- 
-  for (int j = 1; j <= 3; j++) {
-    System.out.print("*");
-} System.out.println();
-
-for (int j = 1; j <= 4; j++) {
-    System.out.print("*");
-} System.out.println();
-
-for (int j = 1; j <= 5; j++) {
-    System.out.print("*");
-} System.out.println();
-
-
-System.out.println("\n\n\n");
-for(int i =0; i< args.length; i++){
-    for(int j =1; j<=i j++) {
-        System.out.print("*");
-
+      System.out.print("*");
     }
     System.out.println();
-}
 
+    for (int j = 1; j <= 3; j++) {
+      System.out.print("*");
+    }
+    System.out.println();
 
+    for (int j = 1; j <= 4; j++) {
+      System.out.print("*");
+    }
+    System.out.println();
 
+    for (int j = 1; j <= 5; j++) {
+      System.out.print("*");
+    }
+    System.out.println();
 
-}
+    System.out.println("\n\n\n");
+    for (int i = 0; i < args.length; i++) {
+      for (int j = 1; j <= 6; j++) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+  }
 }
