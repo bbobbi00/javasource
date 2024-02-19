@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+
 public class SetEx2 {
 
   public static void main(String[] args) {
@@ -29,5 +30,24 @@ public class SetEx2 {
 
     Set<Integer> set2 = new HashSet<>(list2);
     System.out.println(set2);
+
+    Set<Member> set3 = new HashSet<>();
+
+
+    Member member = new Member();
+    member.setId("hong123");
+    member.setName("홍길동");
+    set3.add(member);
+
+    member = new Member();
+    member.setId("hong123");
+    member.setName("홍길동");
+    set3.add(member);
+
+    for (Member mem : set3) {
+        System.out.println(mem);
+    }
+        
+    }
   }
-}
+
